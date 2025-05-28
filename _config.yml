@@ -1,0 +1,25 @@
+# Site settings
+title: Quantum Immersion Day - Tennessee Edition
+email: amirmira@mtsu.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Quantum Immersion Day - Tennessee Edition - June 2nd 2025
+baseurl: "/quantum_immersion_day"
+#url: "https://mtsu-quantum.github.io"
+
+# Build settings
+markdown: kramdown
+
+assets:
+  sources:
+    - assets/fonts
+    - assets/images
+    - assets/js
+    - assets/css
+    - assets/logos
+    - assets/panelists
+
+plugins:
+  - jekyll-assets
+
+
+theme: jekyll-theme-time-machine
